@@ -1,0 +1,10 @@
+# Experiment configuration for football detection
+model: yolov8s.pt        # backbone model (small, good for starting)
+imgsz: 640               # image size
+epochs: 10               # number of training epochs
+batch: 16                # batch size (adjust if GPU memory is low)
+optimizer: SGD           # optimizer (SGD or Adam)
+device: 0                # GPU device (0 = first GPU)
+seed: 42                 # random seed for reproducibility
+save_dir: results/runs/detect/train
+data: configs/data_3.yaml

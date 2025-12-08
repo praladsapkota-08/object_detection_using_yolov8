@@ -1,0 +1,12 @@
+train: /home/prahlad-maharaj/yolo/object_detection/data/football_3/train/images
+val: /home/prahlad-maharaj/yolo/object_detection/data/football_3/valid/images
+test: /home/prahlad-maharaj/yolo/object_detection/data/football_3/test/images
+
+nc: 4
+names: ['ball', 'goalkeeper', 'player', 'referee']
+roboflow:
+  workspace: minaehyeon
+  project: football-player-jrjtj
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/minaehyeon/football-player-jrjtj/dataset/5
